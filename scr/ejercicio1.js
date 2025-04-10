@@ -1,0 +1,2 @@
+const integrantes = "Franco Maximiliano Arcibia Aquino, Axel Daniel Dominguez, Talia Selene Marianela Espejo, Lucia Valentina Madrigal, Noe Franco Mamani";
+console.log(`Somos ${integrantes} y estamos aprendiendo javascript.`);
