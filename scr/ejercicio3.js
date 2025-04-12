@@ -1,6 +1,6 @@
 
 
-//Ejercicio n 3;
+// Ejercicio n 3;
 
 const radio = 7.5;
 const area = Math.PI * (radio ** 2);

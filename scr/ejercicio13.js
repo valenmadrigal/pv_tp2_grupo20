@@ -1,6 +1,6 @@
 
 
-//Ejercicio n 13;
+// Ejercicio n 13;
 
 const mostrarArreglo=(Arreglo)=>{
 for(let i=0;i<arreglo.lenght;i++){
