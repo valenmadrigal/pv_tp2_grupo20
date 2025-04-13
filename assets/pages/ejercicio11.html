@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio11
+    </title>
+</head>
+<body>
+    <script> 
+        const kilometros = parseFloat(prompt("Ingresa el número de kilómetros recorridos:"));
+        const litros = parseFloat(prompt("Ingresa el número de litros de combustible consumidos:"));
+        const consumo = litros / kilometros;
+        if (!isNaN(consumo) && kilometros > 0) {
+          alert(`El consumo de combustible por kilómetro es: ${consumo} litros/km`);
+        } else {
+          alert("Por favor, ingresa valores numéricos válidos y asegúrate de que los kilómetros sean mayores que cero.");
+        }</script>
+</body>
+</html>

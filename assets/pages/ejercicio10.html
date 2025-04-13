@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio10</title>
+</head>
+<body>
+    <script>
+    const numero1 = parseInt(prompt("Ingresa el primer número entero:"));
+    const numero2 = parseInt(prompt("Ingresa el segundo número entero:"));
+    const numero3 = parseInt(prompt("Ingresa el tercer número entero:"));
+
+    const promedio = (numero1 + numero2 + numero3) / 3;
+
+    if (!isNaN(promedio)) {
+      alert(`El promedio de los tres números es: ${promedio}`);
+    } else {
+      alert("Por favor, ingresa números enteros válidos.");
+    }
+    </script>
+</body>
+</html>
