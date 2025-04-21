@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#inputText {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#outputText {
+    background-color: #e9e9e9;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    min-height: 50px;
+    width: 80%;
+    text-align: center;
+}
+
+.long-text {
+    background-color: lightcoral; /* Cambia el fondo a rojo claro */
+}
