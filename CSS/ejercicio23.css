@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    margin: 0;
+    color: #2d3748;
+}
+
+h2 {
+    color: #2d3748;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    position: relative;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: #4299e1;
+    border-radius: 3px;
+}
+
+label {
+    display: inline-block;
+    margin: 0.8rem 1rem;
+    padding: 0.8rem 1.5rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+label:hover {
+    transform: translateY(-2px);
+    filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.08));
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+    accent-color: #4299e1;
+    transform: scale(1.2);
+}
+
+#resultado {
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    background: #4299e1;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(66, 153, 225, 0.3);
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+    label {
+    display: block;
+    margin: 0.6rem auto;
+    width: 80%;
+    }
+}
